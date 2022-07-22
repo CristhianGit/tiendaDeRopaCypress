@@ -4,7 +4,7 @@
   "description": "Pruebas automatizadas del sistema de tienda de ropas.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": ".\node_modules\.bin\cypress run"
   },
   "keywords": [
     "QA",
@@ -18,5 +18,14 @@
   "license": "ISC",
   "dependencies": {
     "cypress": "^10.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CristhianGit/tiendaDeRopaCypress"
+  },
+  "devDependencies": {
+    "next": "^12.2.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
